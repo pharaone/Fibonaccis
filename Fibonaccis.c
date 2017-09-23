@@ -12,10 +12,15 @@ int main() {
     int r , i, howmanyt  = 0 ; // r: result, howmanyt : how many times to do the fibonacci
     printf("How many times do I have to do the Fibonacci?\n");
     scanf("%d" ,&howmanyt);
+    if (howmanyt < 1){
+    	printf("You can`t set 0 or a negative number, please write a new number: ");
+    	scanf("%d",&howmanyt);
+	}
     for (i = 0; i <= howmanyt; i++){
         r = prec1 + prec2;
         printf("\n" "%d", r);
         prec1 = prec2 ;
         prec2 = r;
     }
+    printf("\n Fibonaccis ran %d times", howmanyt);
 }
