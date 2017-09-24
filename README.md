@@ -1,5 +1,5 @@
 # Fibonaccis
-Program that makes the Fibonacci's sequence
+Program that makes the Fibonacci's sequence in less than 1 kilobyte!
 ## <a name="screenshots"> What it looks like </a>
 <img alt="Fibonaccis" height="450" src="https://github.com/pharaone/Fibonaccis/blob/master/images/fibonaccis%200.0.3.PNG">
 
