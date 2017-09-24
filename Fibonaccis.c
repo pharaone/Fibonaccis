@@ -26,5 +26,5 @@ int main() {
         prec2 = r;
     }
     printf("\n Fibonaccis ran %d times,", howmanyt);
-    printf(" the last number of the sequence was %d", r);
+    printf(" the last number of the sequence was %d \n", r);
 }
