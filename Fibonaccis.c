@@ -7,7 +7,7 @@
 //
 #include <stdio.h>
 int main() {
-    int prec1 = 1; // first number
+	int prec1 = 1; // first number
     int prec2 = 0; // second number
     int r , i, howmanyt  = 0 ; // r: result, howmanyt : how many times to do the fibonacci
     printf("How many times do I have to do the Fibonacci?\n");
@@ -25,5 +25,6 @@ int main() {
         prec1 = prec2 ;
         prec2 = r;
     }
-    printf("\n Fibonaccis ran %d times", howmanyt);
+    printf("\n Fibonaccis ran %d times,", howmanyt);
+    printf(" the last number of the sequence was %d", r);
 }
