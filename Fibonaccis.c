@@ -16,7 +16,7 @@ int main() {
     	printf("You can`t set 0 or a negative number, please write a new number: ");
     	scanf("%d",&howmanyt);
 	}else if (howmanyt > 45){
-		printf("For now Fibonaccis doesn`t support more than 45 fibonaccis, please write a new number: ");
+		printf("For now Fibonaccis doesn`t support more than 45 times, please write a new number: ");
     	scanf("%d",&howmanyt);
 	}
     for (i = 0; i <= howmanyt; i++){
