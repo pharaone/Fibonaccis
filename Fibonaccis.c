@@ -1,6 +1,6 @@
 //
 //  main.c
-//  Fibonaccis 0.0.3 Beta
+//  Fibonaccis 0.0.3
 //
 //  Created by Emanuele Antonio Faraone on 23/09/17.
 //  Copyright © 2017 Emanuele Antonio Faraone. All rights reserved.
